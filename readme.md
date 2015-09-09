@@ -11,7 +11,7 @@ The aim of MultipartBody is to ensure consistency when creating (and parsing in 
     multipart = MultipartBody.new(:field1 => 'content', :field2 => 'something else')
 
     # With parts
-    part = Part.new(:name => 'name', :body => 'body', :filename => 'f.txt', :content_type => 'text/plain', :encoding => :base64)
+    part = Part.new(:name => 'name', :body => 'body', :filename => 'f.txt', :size => 'body'.bytesize, :content_type => 'text/plain', :encoding => :base64)
     
     # or to specify just the name, body and optional filename
     part = Part.new('name', 'content', 'file.txt')

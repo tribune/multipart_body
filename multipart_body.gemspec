@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "multipart_body"
-  s.version     = "0.2.0"
+  s.version     = "0.2.1"
   s.author      = "Steve Smith"
   s.email       = "gems@dynedge.co.uk"
   s.homepage    = "http://github.com/cloudmailin/multipart_body"
